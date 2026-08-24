@@ -18,6 +18,7 @@ class User extends Authenticatable
         'mfa_secret',
         'mfa_enabled',
         'google_id',
+        'github_id',
     ];
 
     protected $hidden = [
